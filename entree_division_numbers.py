@@ -47,7 +47,7 @@ def multi_processіng_performing(lst):
 
 
 def main():
-    num_lst = [128, 255, 99999, 10651060]
+    num_lst = [128, 255, 99999, 10651060, 106510601, 106510601, 106510601]
     print(single_process_performing(num_lst))
     print("\n")
     print(multi_processіng_performing(num_lst))
