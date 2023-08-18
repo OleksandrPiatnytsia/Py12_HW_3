@@ -84,14 +84,14 @@ def main():
 
     [el.join() for el in threads]
 
-    folders.reverse()
-
-    for i in folders:
-        if str(i) != path:
-            logging.debug(f'Deleting empty folder:  {i.absolute()}')
-            i.rmdir()
-
-    logging.debug(f'performing time:  {time() - timestamp}')
+    # folders.reverse()
+    #
+    # for i in folders:
+    #     if str(i) != path:
+    #         logging.debug(f'Deleting empty folder:  {i.absolute()}')
+    #         i.rmdir()
+    #
+    # logging.debug(f'performing time:  {time() - timestamp}')
 
 
 if __name__ == '__main__':
